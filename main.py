@@ -49,6 +49,7 @@ if data["country"] is 0:
     data["country"] = "No country"
 
 app = dash.Dash(__name__)
+server = app.server
 app.title = "My Dashboard"
 
 # Dashboard layout
